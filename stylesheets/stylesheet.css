@@ -12,10 +12,6 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
 }
 
-h1 {
-  font-family: logofont;
-}
-
 /**
  * Remove default margin.
  */
@@ -468,6 +464,7 @@ header h1 {
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
+  font-family: logofont;
 }
 
 header h2 {
