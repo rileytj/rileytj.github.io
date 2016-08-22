@@ -12,6 +12,10 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
 }
 
+title {
+  font-family: logofont;
+}
+
 /**
  * Remove default margin.
  */
@@ -769,6 +773,13 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+/* #Font Faces
+================================================== */
+@font-face {
+    font-family: logofont;
+    src: url(MarketingScript.tff);
+}
 
 /* #Media Queries
 ================================================== */
